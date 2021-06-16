@@ -10,3 +10,5 @@
 
 # auth option 3: --account-name= & az login
 az storage blob undelete -c mfc -n msb.txt --account-name= 
+
+# auth option 4: ...
