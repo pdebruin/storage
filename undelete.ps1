@@ -63,8 +63,9 @@ Do
 
         if($_.IsDeleted)
         {
-            
+            $_.ICloudBlob.Undelete()
             # Invoke-RestMethod? https://myaccount.blob.core.windows.net/mycontainer/myblob?comp=undelete	
+            # ICloudBlob .net sdk
         }
     } 
     
